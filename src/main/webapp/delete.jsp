@@ -13,7 +13,7 @@
 		String womanSelected = "";
 	%>
 	<%
-		EmployeeDto updateEmployee = (EmployeeDto)request.getAttribute("deleteEmployee");
+		EmployeeDto deleteEmployee = (EmployeeDto)request.getAttribute("deleteEmployee");
 	
 	%>
 	<header>
